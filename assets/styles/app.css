@@ -601,7 +601,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-top_block__content {
-        margin-left: 9.88vw
+        margin-left: 9.3vw
     }
 }
 
@@ -3604,7 +3604,7 @@ img[src$='.svg'] {
     transform: translateY(-50%);
     right: 100vw;
     z-index: 1;
-    background: #221551
+    background: #ffffff;
 }
 
 .js-base__lineAnim .js-anim__cont {
@@ -5690,7 +5690,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_inner .c-top_block__content {
-        margin-top: 4vw
+        margin-top: 6vw;
+        display: flex;
     }
 }
 
@@ -10819,5 +10820,11 @@ footer {
     margin-bottom: 10vw;
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
+}
+.main-img {
+    width: 43vw;
+    margin-left: -9vw;
+    margin-right: 6vw;
+    box-shadow: 11px 10px 9px white;
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
