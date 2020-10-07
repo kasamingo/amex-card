@@ -1957,7 +1957,6 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-footer_container {
         padding-top: 5.856vw;
-        background: url("../images/common/footer/footer_bg_pc.jpg") center/cover
     }
 }
 
@@ -9396,7 +9395,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     #CP_ACCORDION {
-        margin-top: 7.320644216691069vw
+        margin-top: 7.320644216691069vw;
+        padding-bottom: 13vw;
     }
 }
 
@@ -9791,7 +9791,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     #CP_BOTTOM_APPLICATION {
-        margin-top: 3.660322108345535vw
+        padding-top: 3.660322108345535vw;
+        background-color: #0f1d26;
     }
 }
 
@@ -10776,9 +10777,9 @@ footer {
 }
 
 #wp.thema-TOP_TRY {
-    background: #eeeeef;
+    background: #0f1d26;
     -webkit-transition: background 1s;
-    transition: background 1s
+    transition: background 1s;
 }
 
 #wp.browser__use--ie .top_bg {
