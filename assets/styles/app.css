@@ -10823,9 +10823,10 @@ footer {
     box-shadow: 20px -20px 15px #888888;
 }
 .main-img {
-    width: 43vw;
+    width: 40vw;
+    height: 23vw;
     margin-left: -9vw;
-    margin-right: 6vw;
+    margin-right: 10vw;
     box-shadow: 11px 10px 9px white;
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
