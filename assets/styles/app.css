@@ -4177,7 +4177,7 @@ img[src$='.svg'] {
 
 .c-article__ttl__block {
     text-align: center;
-    color: #221551;
+    color: silver;
 }
 
 @media screen and (min-width:769px) {
@@ -5310,7 +5310,7 @@ img[src$='.svg'] {
 
 .c-use__cont__list__item__inner .object {
     position: relative;
-    color: #1d1d1d;
+    color: silver;
 }
 
 .c-use__cont__list__item__inner .object:before {
@@ -5320,7 +5320,7 @@ img[src$='.svg'] {
     flex: none;
     content: '';
     display: block;
-    background: #221551;
+    background: silver;
     -webkit-transform-origin: center;
     transform-origin: center;
     -webkit-transform: rotate(45deg);
@@ -9803,7 +9803,7 @@ img[src$='.svg'] {
 }
 
 .p-application__box {
-    border: 1px solid #000;
+    border: 1px solid #fff;
     margin: 0 auto;
 }
 
@@ -9882,7 +9882,7 @@ img[src$='.svg'] {
 
 .p-application__concent__checkbox {
     text-align: center;
-    color: #221551;
+    color: silver;
     font-family: kozuka-gothic-pr6n, serif;
     font-weight: 500;
     font-style: normal;
@@ -9937,7 +9937,7 @@ img[src$='.svg'] {
 }
 
 .p-application__concent__checkbox__label:before {
-    border: 1px solid #221551;
+    border: 1px solid silver;
 }
 
 @media screen and (max-width:768px) {
