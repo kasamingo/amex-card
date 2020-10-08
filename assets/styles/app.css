@@ -694,7 +694,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-top_panel_object .c-top_panel_object__shadow {
-        width: 76.72vw
+        width: 61.72vw;
+        margin-left: 10vw;
     }
 }
 
@@ -882,7 +883,7 @@ img[src$='.svg'] {
 .c-top_block__copy.add-line__before::before {
     content: '';
     display: block;
-    background: #000;
+    background: #deb786;
     height: 1px;
 }
 
@@ -913,7 +914,7 @@ img[src$='.svg'] {
 }
 
 .c-top_block__copy>.is-purple {
-    color: #221551
+    color: #deb786;
 }
 
 @media screen and (min-width:769px) {
@@ -10825,7 +10826,7 @@ footer {
 .main-img {
     width: 40vw;
     height: 23vw;
-    margin-left: -9vw;
+    margin-left: -7vw;
     margin-right: 18vw;
     box-shadow: 11px 10px 9px white;
 }
