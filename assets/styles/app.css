@@ -1963,7 +1963,6 @@ img[src$='.svg'] {
 
 @media screen and (max-width:768px) {
     .c-footer_container {
-        background: url("../images/common/footer/footer_bg_sp.jpg") center/cover;
         padding-top: 19.73vw
     }
 }
@@ -10823,6 +10822,9 @@ footer {
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
 }
+.tree{
+    
+}
 .main-img {
     width: 40vw;
     height: 23vw;
@@ -10830,7 +10832,9 @@ footer {
     margin-right: 18vw;
     box-shadow: 12px 12px 13px black;
 }
-.blue{
-    width: 20vw;
+.tree {
+    /* padding-bottom: 2vw; */
+    position: absolute;
+    bottom: -22vw;
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
