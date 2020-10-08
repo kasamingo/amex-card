@@ -694,8 +694,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-top_panel_object .c-top_panel_object__shadow {
-        width: 61.72vw;
-        margin-left: 10vw;
+        width: 52.72vw;
+        margin-left: 20vw;
     }
 }
 
@@ -10772,9 +10772,9 @@ footer {
 }
 
 #wp.thema-TOP_CAMPAIGN {
-    background: #d4c2b8;
+    background: #0f1d26;
     -webkit-transition: background 1s;
-    transition: background 1s
+    transition: background 1s;
 }
 
 #wp.thema-TOP_TRY {
@@ -10828,7 +10828,7 @@ footer {
     height: 23vw;
     margin-left: -7vw;
     margin-right: 18vw;
-    box-shadow: 11px 10px 9px white;
+    box-shadow: 12px 12px 13px black;
 }
 .blue{
     width: 20vw;
