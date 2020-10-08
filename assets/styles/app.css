@@ -2967,7 +2967,7 @@ img[src$='.svg'] {
 }
 
 .c-header-logo img {
-    width: 100%
+    width: 44%;
 }
 .topText{
     color: silver;
@@ -10826,7 +10826,10 @@ footer {
     width: 40vw;
     height: 23vw;
     margin-left: -9vw;
-    margin-right: 10vw;
+    margin-right: 18vw;
     box-shadow: 11px 10px 9px white;
+}
+.blue{
+    width: 20vw;
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
