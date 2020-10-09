@@ -6154,8 +6154,8 @@ img[src$='.svg'] {
 @media screen and (max-width:768px) {
     .p-top-try_container {
         margin-left: 8vw;
-        padding-top: 22.26vw;
-        padding-bottom: 18vw
+        padding-top: 80vw;
+        padding-bottom: 18vw;
     }
 }
 
@@ -10877,6 +10877,23 @@ footer {
     .c-top_panel_object .c-top_panel_object__shadow {
         width: 85.46vw;
     }
+    .img1 {
+        position: relative;
+        top: -64vw;
+    }
+    .img2 {
+        position: relative;
+        top: -58vw;
+    }
+    .img0 {
+        position: relative;
+        top: -58vw;
+    }
+    .p-top-campaign_container {
+        margin-left: 8vw;
+        padding-top: 80.26vw;
+        padding-bottom: 16vw;
+    }
 }
 @media screen and (max-width:480px){
     .an {
@@ -10892,6 +10909,14 @@ footer {
     .c-top_block__hdg--lv1 {
         font-size: 24px;
     }
+    .img1 {
+        position: relative;
+        top: -66vw;
+    }
+    .img2 {
+        position: relative;
+        top: -62vw;
+    }
 }
 @media screen and (max-width:380px){
     .p-top-mv_inner .c-top_block__content {
@@ -10906,6 +10931,20 @@ footer {
     }
     .ttl2{
         margin-top: 69vw;
+    }
+    .img0 {
+        position: relative;
+        top: 0vw;
+    }
+    .p-top-try_container {
+        margin-left: 8vw;
+        padding-top: 16vw;
+        padding-bottom: 18vw;
+    }
+    .p-top-campaign_container {
+        margin-left: 8vw;
+        padding-top: 20.26vw;
+        padding-bottom: 16vw;
     }
     .img1 {
         position: relative;
