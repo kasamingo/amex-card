@@ -511,7 +511,8 @@ img[src$='.svg'] {
 
 .c-section {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    background-color: #0f1d26;
 }
 
 @media screen and (min-width:769px) {
@@ -2933,10 +2934,10 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-header_inner {
         padding-left: 1.464vw;
-        padding-top: 1.464vw;
+        padding-top: 2.464vw;
         padding-right: 2.464vw;
-        padding-bottom: 1.464vw
-    }
+        padding-bottom: 2.464vw;
+    }   
 }
 
 @media screen and (max-width:768px) {
@@ -9440,9 +9441,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-accordion__container:last-child .p-accordion__list {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex
+        /**display: -webkit-box;
+        display: -ms-flexbox;**/
     }
 }
 
@@ -10836,5 +10836,75 @@ footer {
     /* padding-bottom: 2vw; */
     position: absolute;
     bottom: -22vw;
+}
+
+
+
+
+
+@media screen and (max-width:1030px){
+
+}
+@media screen and (max-width:780px){
+    video {
+        height: 82vw;
+        position: relative;
+    }
+    .main-img {
+        width: 40vw;
+        height: 23vw;
+        margin-top: -9vw;
+        margin-bottom: 10vw;
+        margin-left: -2vw;
+    }
+    .c-top_block__hdg--lv1 {
+        font-size: 42px;
+    }
+    .p-top-detail_container {
+        margin-top: 19.733333333333334vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .p-top-detail_block__desc--lv1 {
+        font-size: 30px;
+    }
+    .c {
+        width: 70vw;
+        margin-left: -23vw;
+    }
+    .p-top-detail_inner {
+        padding-bottom: 93.533333vw;
+    }
+    .tree {
+        bottom: -71vw;
+    }
+    .c-top_panel_object .c-top_panel_object__shadow {
+        width: 85.46vw;
+    }
+}
+@media screen and (max-width:480px){
+    .an {
+        font-size: 36px;
+    }
+    .p-top-detail_block__desc--lv1 {
+        font-size: 16px;
+    }
+    .p-top-mv_inner .c-top_block__content * {
+        color: #fff;
+        font-size: 26px;
+    }
+    .c-top_block__hdg--lv1 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:380px){
+    .p-top-mv_inner .c-top_block__content {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    .p-top-mv_inner .c-top_block__content * {
+        color: #fff;
+        font-size: 24px;
+    }
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
