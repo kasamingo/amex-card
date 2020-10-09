@@ -10838,10 +10838,6 @@ footer {
     bottom: -22vw;
 }
 
-
-
-
-
 @media screen and (max-width:1030px){
 
 }
@@ -10902,9 +10898,30 @@ footer {
         margin-left: 4vw;
         margin-right: 4vw;
     }
+    .p-top-campaign_inner{
+        height: ;
+    }
+    .ttl {
+        margin-top: 69vw;
+    }
+    .ttl2{
+        margin-top: 69vw;
+    }
+    .img1 {
+        position: relative;
+        top: -66vw;
+    }
+    .img2 {
+        position: relative;
+        top: 2vw;
+    }
+    .ttl3{
+        margin-top: 69vw;
+    }
     .p-top-mv_inner .c-top_block__content * {
         color: #fff;
         font-size: 24px;
     }
+    
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
