@@ -9468,8 +9468,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .p-accordion__container:last-child .p-accordion__list__item:first-child {
         border-right: 1px solid #e9e9e9;
-        margin-left: 5.71vw;
-        padding-right: 3.51vw
+        padding-right: 3.51vw;
     }
 }
 
