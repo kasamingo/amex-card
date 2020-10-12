@@ -5705,7 +5705,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_block__desc--lv1 {
-        margin-top: 3.44vw
+        margin-top: 1.44vw;
     }
 }
 
@@ -6579,7 +6579,7 @@ img[src$='.svg'] {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #00ac9a;
+    background-color: #0f1c25;
     background-size: cover;
     z-index: -10;
     display: none;
@@ -10822,6 +10822,13 @@ footer {
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
 }
+.blackBox {
+    position: relative;
+    top: -51vw;
+    width: 100%;
+    height: 52vw;
+    background: rgb(0 0 0 / 39%);
+}
 .img2 {
     position: relative;
     top: -12vw;
@@ -10853,6 +10860,9 @@ footer {
     video {
         height: 82vw;
         position: relative;
+    }
+    .blackBox {
+        display: none;
     }
     .main-img {
         width: 40vw;
