@@ -10875,6 +10875,9 @@ footer {
 }
 
 @media screen and (max-width:1030px){
+    .p-top-detail_block__desc--lv1 {
+        font-size: 1.5vw;
+    }
 
 }
 @media screen and (max-width:780px){
@@ -10934,6 +10937,25 @@ footer {
         padding-top: 80.26vw;
         padding-bottom: 16vw;
     }
+    .border2 {
+        width: 36vw;
+        font-size: 16px;
+    }
+    .p-accordion__list__item:before {
+        width: 2.47vw;
+        height: 2.47vw;
+        left: 4.8vw;
+        top: 2.06vw;
+    }
+    .p-accordion__content__inner {
+        padding: 0vw 2.66vw 9.06vw;
+    }
+    .p-text {
+        font-size: 14px;
+    }
+    .p-accordion__list__item {
+        font-size: 22px;
+    }
 }
 @media screen and (max-width:480px){
     .an {
@@ -10944,7 +10966,7 @@ footer {
     }
     .p-top-mv_inner .c-top_block__content * {
         color: #fff;
-        font-size: 26px;
+        font-size: 21px;
     }
     .c-top_block__hdg--lv1 {
         font-size: 24px;
@@ -10957,6 +10979,24 @@ footer {
         position: relative;
         top: -62vw;
     }
+    .p-accordion__list__item {
+        font-size: 17px;
+    }
+    .p-accordion__list__item {
+        padding-left: 1.33vw;
+    }
+    .p-accordion__list__item:before {
+        left: -2.2vw;
+        top: 2.06vw;
+    }
+    .border2 {
+        width: 70vw;
+        font-size: 16px;
+    }
+    .border2 {
+        margin-left: 2vw;
+    }
+    
 }
 @media screen and (max-width:380px){
     .p-top-mv_inner .c-top_block__content {
@@ -10999,7 +11039,30 @@ footer {
     }
     .p-top-mv_inner .c-top_block__content * {
         color: #fff;
-        font-size: 24px;
+        font-size: 19px;
+    }
+    .c-know_of__list__item:before {
+        width: 2.6vw;
+        height: 2.6vw;
+    }
+    .p-accordion__list__item {
+        font-size: 16px;
+    }
+    .p-accordion__list__item {
+        padding-left: 2.33vw;
+    }
+    .p-accordion__list__item:before {
+        left: -2.2vw;
+        top: 2.06vw;
+    }
+    .border2 {
+        width: 71vw;
+        font-size: 16px;
+    }
+    .border2 {
+        margin-left: 2vw;
+        width: 66vw;
+        font-size: 14px;
     }
     
 }
