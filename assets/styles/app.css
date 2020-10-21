@@ -249,7 +249,7 @@ button {
 }
 
 body {
-    color: silver;
+    color: white;
 }
 
 body>img {
@@ -5282,7 +5282,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-use__cont__list__item__container+.c-use__cont__list__item__container {
-        margin-left: 1.6vw
+        margin-left: 1.6vw;
+        background: linear-gradient(45deg, #ffffff, #ffffff);
     }
 }
 
@@ -10821,19 +10822,40 @@ footer {
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
 }
+
 .blackBox {
     position: relative;
     top: -51vw;
     width: 100%;
     height: 52vw;
-    background: rgb(0 0 0 / 39%);
+    background: rgb(0 0 0 / 59%);
 }
-.img2 {
-    position: relative;
-    top: -12vw;
+.border {
+    border-top: 2px dotted #8a8a8a;
+    border-bottom: 2px dotted #a7a7a7;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    font-family: serif;
 }
-.tree{
-    
+.border2 {
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+    width: 20vw;
+    font-size: 1.3vw;
+    font-family: serif;
+    margin-left: 7vw;
+    padding-top: 0.8vw;
+    padding-left: 1vw;
+    padding-bottom: 0.8vw;
+}
+.p-text {
+    font-family: serif;
+    font-size: 1.2vw;
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding-bottom: 2vw;
 }
 .how{
     margin-top: 17vw;
@@ -10863,6 +10885,7 @@ footer {
     .blackBox {
         display: none;
     }
+    
     .main-img {
         width: 40vw;
         height: 23vw;
