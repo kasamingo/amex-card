@@ -9985,7 +9985,7 @@ img[src$='.svg'] {
 .p-application__concent__btn {
     margin: 0 auto;
     pointer-events: none;
-    background-image: linear-gradient(110deg, #bbbdce 0%, #dadbe8 100%);
+    background-image: linear-gradient(147deg, #291b58 0%, #00ffd0 100%);
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
@@ -10926,11 +10926,11 @@ footer {
     }
     .img2 {
         position: relative;
-        top: -58vw;
+        top: -67vw;
     }
     .img0 {
         position: relative;
-        top: -58vw;
+        top: -70vw;
     }
     .p-top-campaign_container {
         margin-left: 8vw;
@@ -11014,7 +11014,7 @@ footer {
     }
     .img0 {
         position: relative;
-        top: -1vw;
+        top: -68vw;
     }
     .p-top-try_container {
         margin-left: 8vw;
@@ -11032,7 +11032,10 @@ footer {
     }
     .img2 {
         position: relative;
-        top: 2vw;
+        top: -66vw;
+    }
+    #CP_ACCORDION {
+        margin-top: -1.6vw;
     }
     .ttl3{
         margin-top: 69vw;
