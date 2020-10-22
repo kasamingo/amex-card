@@ -5662,8 +5662,9 @@ img[src$='.svg'] {
 }
 
 .p-top-mv_block__human.is-show {
+    width: 100%;
     -webkit-animation: brightness 5s cubic-bezier(.78, .01, .29, 1);
-    animation: brightness 5s cubic-bezier(.78, .01, .29, 1)
+    animation: brightness 5s cubic-bezier(.78, .01, .29, 1);
 }
 
 .p-top-mv_block__visual {
@@ -10843,8 +10844,10 @@ footer {
     border-top: 2px dotted gray;
     border-bottom: 2px dotted gray;
     width: 20vw;
+    font-weight: bold;
+    color: #a0a0a0;
     font-size: 1.3vw;
-    font-family: serif;
+    /* font-family: serif; */
     margin-left: 7vw;
     padding-top: 0.8vw;
     padding-left: 1vw;
