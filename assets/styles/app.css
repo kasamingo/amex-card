@@ -10939,7 +10939,7 @@ footer {
     }
     .border2 {
         width: 36vw;
-        font-size: 16px;
+        font-size: 22px;
     }
     .p-accordion__list__item:before {
         width: 2.47vw;
@@ -10951,10 +10951,11 @@ footer {
         padding: 0vw 2.66vw 9.06vw;
     }
     .p-text {
-        font-size: 14px;
+        font-size: 15px;
+        line-height: 5.5vw;
     }
     .p-accordion__list__item {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 @media screen and (max-width:480px){
@@ -11012,6 +11013,7 @@ footer {
     .ttl2{
         margin-top: 69vw;
     }
+    
     .img0 {
         position: relative;
         top: -68vw;
@@ -11066,6 +11068,9 @@ footer {
         margin-left: 2vw;
         width: 66vw;
         font-size: 14px;
+    }
+    .ttl4 {
+        margin-top: 1vw;
     }
     
 }
