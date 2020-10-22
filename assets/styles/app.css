@@ -11007,6 +11007,10 @@ footer {
         margin-left: 4vw;
         margin-right: 4vw;
     }
+    .p-text {
+        font-size: 14px;
+        line-height: 5.5vw;
+    }
     .p-top-campaign_inner{
         height: ;
     }
@@ -11058,10 +11062,11 @@ footer {
     }
     .p-accordion__list__item {
         padding-left: 2.33vw;
+        padding-top: 4vw;
     }
     .p-accordion__list__item:before {
         left: -2.2vw;
-        top: 2.06vw;
+        top: 6.5vw;
     }
     .border2 {
         width: 71vw;
@@ -11075,6 +11080,11 @@ footer {
     .ttl4 {
         margin-top: 1vw;
     }
-    
+    .c-know_of__list__item {
+        font-size: 18px;
+        letter-spacing: .05em;
+        line-height: 1.388889;
+        padding-left: 8.1vw;
+    }
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
