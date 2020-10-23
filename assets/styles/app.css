@@ -5692,7 +5692,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_inner .c-top_block__content {
-        margin-top: 6vw;
+        margin-top: 0vw;
         display: flex;
     }
 }
