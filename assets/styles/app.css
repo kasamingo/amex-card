@@ -2970,12 +2970,13 @@ img[src$='.svg'] {
 .c-header-logo img {
     width: 44%;
 }
-.topText{
+.topText {
     color: silver;
-    margin-right: 19vw;
+    margin-right: 26vw;
     font-family: serif;
     font-size: 1.7vw;
 }
+
 .c-header_block__menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3424,6 +3425,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-know_of__container {
         padding-top: 8vw;
+        text-align: center;
         padding-bottom: 8.05vw
     }
 }
@@ -5692,7 +5694,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_inner .c-top_block__content {
-        margin-top: 0vw;
+        margin-top: -2vw;
         display: flex;
     }
 }
@@ -10867,8 +10869,8 @@ footer {
 .main-img {
     width: 40vw;
     height: 23vw;
-    margin-left: -7vw;
-    margin-right: 18vw;
+    margin-left: -3vw;
+    margin-right: 9vw;
     box-shadow: 12px 12px 13px black;
 }
 .tree {
