@@ -9870,7 +9870,7 @@ img[src$='.svg'] {
 
 @media screen and (max-width:768px) {
     .p-application__concent {
-        margin-top: 13.33vw
+        margin-top: 4.33vw;
     }
 }
 
