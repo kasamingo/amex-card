@@ -279,7 +279,7 @@ img[src$='.svg'] {
 
 [data-FadeIn].is-show {
     opacity: 1;
-    line-height: 2vw;
+
 }
 
 [data-FadeInSlideUp] {
@@ -2435,9 +2435,10 @@ img[src$='.svg'] {
         display: block;
         width: 2.4vw;
         height: 2.4vw;
-        background: url("../images/common/icon/bktop.png") center/contain no-repeat;
+        margin-right: 40vw;
+        background: url(../images/common/icon/bktop.png) center/contain no-repeat;
         -webkit-transition: .3s all ease;
-        transition: .3s all ease
+        transition: .3s all ease;
     }
 }
 
@@ -5641,8 +5642,8 @@ img[src$='.svg'] {
 
 @media screen and (max-width:768px) {
     .p-top-mv_block__name {
-        font-size: 6vw;
-        margin-top: 4.13vw
+        font-size: 5vw;
+        margin-top: 4.13vw;
     }
 }
 
@@ -6065,7 +6066,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .p-top-detail_block__desc--lv1 {
         margin-top: 1.2445vw;
-        font-size: 1.098vw;
+        font-size: 1.4vw;
         line-height: 2.533333333333333;
         color: burlywood;
     }
@@ -10832,6 +10833,10 @@ footer {
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
 }
+.f-logo {
+    width: 9vw;
+    margin-top: -2vw;
+}
 .p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
     position: relative;
     width: 23vw;
@@ -10943,13 +10948,98 @@ table td {
 }
 @media screen and (max-width:780px){
     video {
-        height: 82vw;
+        height: 78vw;
         position: relative;
+    }
+    .p-top-mv_block__name {
+        font-size: 5vw;
+        margin-top: 3.13vw;
+    }
+    .c-top_block__sec_ttl+.c-top_block__hdg--lv3 {
+        margin-bottom: 5vw;
+    }
+    .c-top_block__copy+.c-top_block_btn {
+        margin-top: 15.33vw;
+    }
+    .c-article__ttl {
+        font-size: 45px;
+    }
+    .service {
+        height: 43vw;
+    }
+    .c-use__cont__list__item__inner .object:before {
+        top: 46.8vw;
+    }
+    .c-use__cont__list__item__container.thema--purple .c-use__cont__list__item__inner {
+        padding-right: 8vw;
+    }
+    .c-use__cont__list__item__inner {
+        padding-right: 8vw;
+    }
+    .c-use__cont__list__item__container {
+        background: linear-gradient(45deg, #ffffff, #ffffff);
+        margin-top: 6vw;
+    }
+    .c-top_block__sec_ttl {
+        font-size: 1.8666vw;
+    }
+    .c-top_block__hdg--lv3 {
+        font-size: 2.73vw;
+    }
+    .hei2{
+        line-height: 7vw;
+    }
+    .p-trialset__try__hdg {
+        font-size: 44px;
+        margin-bottom: 7vw;
+        line-height: 1.5;
+    }
+    .p-products__card__block .p-products__card__inner__info .info__desc {
+        font-size: 50px;
+        
+    }
+    .c-article__ttl__en {
+        font-size: 1.93vw;
+        margin-top: 5vw;
+    }
+    table td {
+        width: 85%;
+        font-size: 18px;
+        line-height: 3.5vw;
+    }
+    .p-top-detail_block__desc--lv1 {
+        line-height: 4.3vw;
+    }
+    
+    table {
+        margin-left: 10vw;
+    }
+    table th {
+        line-height: 8vw;
+        font-size: 18px;
+        width: 26%;
     }
     .blackBox {
         display: none;
     }
-    
+    .p-top-mv_block__desc--lv1 {
+        font-size: 22px;
+    }
+    .c-know_of__page_ttl {
+        font-size: 50px;
+    }
+    .c-know_of__list__item {
+        font-size: 27px;
+    }
+    .c-know_of__list__item:before {
+        top: 1.5vw;
+        width: 2.6vw;
+        height: 2.6vw;
+        left: 0;
+    }
+    .c-know_of__list__item:after {
+        top: 1vw;
+    }
     .main-img {
         width: 40vw;
         height: 23vw;
@@ -10966,7 +11056,16 @@ table td {
         margin-right: 5vw;
     }
     .p-top-detail_block__desc--lv1 {
-        font-size: 30px;
+        font-size: 19px;
+    }
+    .p-application__box__text {
+        font-size: 17px;
+    }
+    .another {
+        font-size: 38px;
+    }
+    .p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
+        width: 60vw;
     }
     .c {
         width: 70vw;
@@ -11018,6 +11117,9 @@ table td {
     .p-accordion__list__item {
         font-size: 24px;
     }
+    .hei1 {
+        line-height: 7vw;
+    }
 }
 @media screen and (max-width:480px){
     .an {
@@ -11026,9 +11128,65 @@ table td {
     .p-top-detail_block__desc--lv1 {
         font-size: 16px;
     }
-    .p-top-mv_inner .c-top_block__content * {
-        color: #fff;
-        font-size: 21px;
+    
+    .p-top-mv_block__desc--lv1 {
+        font-size: 14px;
+    }
+    .js-base__lineAnim.is-show .js-anim__cont {
+        font-size: 25px;
+    }
+    .c-article__ttl {
+        font-size: 25px;
+    }
+    .p-trialset__try__hdg {
+        font-size: 26px;
+    }
+    .p-products__card__block .p-products__card__inner__info .info__desc {
+        font-size: 33px;
+    }
+    table {
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    .c-top_block__hdg--lv1 {
+        font-size: 43px;
+    }
+    .p-top-detail_inner {
+        padding-bottom: 78.533333vw;
+    }
+    .p-application__box__text {
+        font-size: 15px;
+    }
+    table td {
+        width: 41%;
+        font-size: 16px;
+        padding-bottom: 16vw;
+        line-height: 6.5vw;
+    }
+
+    table th:after {
+        top: 8vw;
+    }
+    table th {
+        line-height: 17vw;
+        font-size: 18px;
+        width: 26%;
+    }
+    .service {
+        margin-bottom: 6vw;
+    }
+    .c-use__cont__list__item__inner .object:before {
+        top: 50.8vw;
+    }
+    .c-know_of__page_ttl {
+        font-size: 23px;
+    }
+    .p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
+        width: 71vw;
+    }
+
+    .c-know_of__list__item {
+        font-size: 20px;
     }
     .c-top_block__hdg--lv1 {
         font-size: 24px;
@@ -11102,19 +11260,30 @@ table td {
         top: -66vw;
     }
     #CP_ACCORDION {
-        margin-top: -1.6vw;
+        margin-top: 18.4vw;
     }
     .ttl3{
         margin-top: 69vw;
     }
-    .p-top-mv_inner .c-top_block__content * {
-        color: #fff;
-        font-size: 19px;
+    .js-base__lineAnim.is-show .js-anim__cont {
+        font-size: 33px;
+    }
+    .p-top-mv_block__name {
+        font-size: 14px;
+        margin-top: 3.13vw;
+    }
+    .c-know_of__page_ttl {
+        font-size: 27px;
+    }
+    .another {
+        margin-top: 18vw;
+        font-size: 21px;
     }
     .c-know_of__list__item:before {
         width: 2.6vw;
         height: 2.6vw;
     }
+    
     .p-accordion__list__item {
         font-size: 16px;
     }
@@ -11139,10 +11308,37 @@ table td {
         margin-top: 1vw;
     }
     .c-know_of__list__item {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: .05em;
-        line-height: 1.388889;
+        line-height: 7vw;
         padding-left: 8.1vw;
+    }
+    .get{
+        font-size: 28px;
+    }
+    .c-article__ttl {
+        font-size: 23px;
+    }
+    table td {
+        font-size: 14px;
+    }
+    table th {
+        line-height: 17vw;
+        padding-left: 3px;
+        font-size: 14px;
+        width: 24%;
+    }
+    .c-top_block__hdg--lv1 {
+        font-size: 12px;
+    }
+    .p-top-detail_block__desc--lv1 {
+        line-height: 5.3vw;
+    }
+    .p-application__box__text {
+        font-size: 14px;
+    }
+    .p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
+        width: 75vw;
     }
 }
 /*-------------------------------------------------------------------------------------------------ここまでは自分が新たに追加したcssを書来ました*/
