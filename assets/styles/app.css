@@ -10857,7 +10857,9 @@ table {
     margin-top: 4vw;
     margin-left: 13vw;
 }
-  
+span{
+    display: inline-block;
+}
 table th {
     position: relative;
     text-align: left;
@@ -10883,7 +10885,7 @@ table th:after {
 }
   
 table td {
-    text-align: left;
+    text-align: left;   
     font-size: 1.6vw;
     font-family: serif;
 }
@@ -10902,6 +10904,7 @@ table td {
 .border {
     border-top: 2px dotted #8a8a8a;
     border-bottom: 2px dotted #a7a7a7;
+    font-size: 1.3vw;
     padding-bottom: 5px;
     padding-top: 5px;
     margin-bottom: 2vw;
