@@ -2925,6 +2925,7 @@ img[src$='.svg'] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -2974,18 +2975,19 @@ img[src$='.svg'] {
 }
 .topText {
     color: silver;
-    margin-right: 26vw;
     font-family: serif;
     font-size: 1.7vw;
 }
 
 .c-header_block__menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 .c-header_block__links {
@@ -9479,7 +9481,6 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-accordion__container:last-child .p-accordion__list__item:first-child {
-        border-right: 1px solid #e9e9e9;
         padding-right: 3.51vw;
     }
 }
@@ -10959,6 +10960,16 @@ table td {
         height: 78vw;
         position: relative;
     }
+    .border {
+        border-top: 2px dotted #8a8a8a;
+        border-bottom: 2px dotted #a7a7a7;
+        font-size: 21px;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+        font-family: serif;
+    }
     .p-top-mv_block__name {
         font-size: 5vw;
         margin-top: 3.13vw;
@@ -11126,22 +11137,54 @@ table td {
         font-size: 24px;
     }
     .hei1 {
-        line-height: 7vw;
+        font-size: 26px;
+    }
+    .c-top_block__copy {
+        font-size: 1.31771vw;
+        margin-top: 3.39vw;
+        line-height: 3vw;
+        color: burlywood;
+    }
+    .border {
+        font-size: 22px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+        font-family: serif;
+    }
+    .c-top_block__hdg--lv1 {
+        font-size: 62px;
     }
 }
 @media screen and (max-width:480px){
     .an {
         font-size: 36px;
     }
+    .c-top_block__copy {
+        font-size: 13px;
+        margin-top: 3.39vw;
+        line-height: 7vw;
+        color: burlywood;
+    }
     .p-top-detail_block__desc--lv1 {
         font-size: 16px;
     }
-    
+    .border {
+        border-top: 2px dotted #8a8a8a;
+        border-bottom: 2px dotted #a7a7a7;
+        font-size: 13px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+        font-family: serif;
+    }
     .p-top-mv_block__desc--lv1 {
         font-size: 14px;
     }
     .js-base__lineAnim.is-show .js-anim__cont {
-        font-size: 25px;
+        font-size: 34px;
     }
     .c-article__ttl {
         font-size: 25px;
@@ -11187,7 +11230,7 @@ table td {
         top: 50.8vw;
     }
     .c-know_of__page_ttl {
-        font-size: 23px;
+        font-size: 32px;
     }
     .p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
         width: 71vw;
@@ -11224,12 +11267,18 @@ table td {
     .border2 {
         margin-left: 2vw;
     }
+    .another{
+        font-size: 22px;
+    }
     
 }
 @media screen and (max-width:380px){
     .p-top-mv_inner .c-top_block__content {
         margin-left: 4vw;
         margin-right: 4vw;
+    }
+    .p-products__card__block .p-products__card__inner__info .info__desc {
+        font-size: 28px;
     }
     .p-text {
         font-size: 14px;
