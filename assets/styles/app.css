@@ -4200,8 +4200,9 @@ img[src$='.svg'] {
         font-family: mauritius, serif;
         font-weight: 700;
         font-style: normal;
+        margin-top: 5vw;
         font-size: .8784vw;
-        letter-spacing: .08em
+        letter-spacing: .08em;
     }
 }
 
@@ -7517,8 +7518,8 @@ img[src$='.svg'] {
 }
 
 .p-article__trialset__try {
-    background: #221551;
-    color: #fff
+    background: #0f1d26;
+    color: #fff;
 }
 
 @media screen and (min-width:769px) {
@@ -7562,7 +7563,8 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .p-trialset__try__hdg {
         font-size: 3vw;
-        line-height: 1.428571428571429
+        margin-bottom: 2vw;
+        line-height: 1.428571428571429;
     }
 }
 
@@ -8775,11 +8777,11 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-products__card__block {
-        height: 41.72767203513909vw;
+        height: 42.727672vw;
         width: 85.35871156661786%;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between
+        justify-content: space-between;
     }
 }
 
@@ -8819,6 +8821,7 @@ img[src$='.svg'] {
     .p-products__card__block .p-products__card__inner__info {
         padding-left: 7.174231332357247vw;
         letter-spacing: .05em;
+        font-family: serif;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center
@@ -8868,7 +8871,8 @@ img[src$='.svg'] {
     .p-products__card__block .p-products__card__inner__info .info__desc {
         font-size: 3.074670571010249vw;
         line-height: 1.428571428571429;
-        margin-top: 1.464128843338214vw
+        margin-top: 1.464128843338214vw;
+        margin-bottom: 1vw;
     }
 }
 
@@ -10768,7 +10772,7 @@ footer {
 }
 
 #wp {
-    background: #dbdbe5;
+    background: #101c26;
     background-size: 250%;
     -webkit-animation: wave 5s ease infinite;
     animation: wave 5s ease infinite;
@@ -10824,10 +10828,56 @@ footer {
 /*-------------------------------------------------------------------------------------------------ここからは自分が新たに追加したcssを書いていきます*/
 
 .c {
-    margin-bottom: 10vw;
+    margin-bottom: 4vw;
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
 }
+.p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
+    position: relative;
+    width: 23vw;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+.c-product__object__lead {
+    margin-bottom: 1.7vw;
+}
+table {
+    margin-bottom: 7vw;
+    margin-top: 4vw;
+    margin-left: 13vw;
+}
+  
+table th {
+    position: relative;
+    text-align: left;
+    line-height: 5vw;
+    font-size: 1.7vw;
+    width: 15%;
+}
+tbody{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+table th:after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #afb4c0;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 20px;
+}
+  
+table td {
+    text-align: left;
+    width: 85%;
+    font-size: 1.6vw;
+    font-family: serif;
+}
+  
 .service {
     height: 14vw;
     margin-bottom: 2vw;
