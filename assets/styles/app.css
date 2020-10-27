@@ -1959,7 +1959,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-footer_container {
-        padding-top: 5.856vw;
+        padding-top: 22.856vw;
     }
 }
 
@@ -5318,7 +5318,7 @@ img[src$='.svg'] {
 
 .c-use__cont__list__item__inner .object {
     position: relative;
-    color: silver;
+    color: #807a7a;
 }
 
 .c-use__cont__list__item__inner .object:before {
@@ -10833,6 +10833,12 @@ footer {
     width: 20vw;
     box-shadow: 20px -20px 15px #888888;
 }
+.c-top_block__copy {
+    font-size: 1.31771vw;
+    margin-top: 3.39vw;
+    line-height: 3vw;
+    color: burlywood;
+}
 .f-logo {
     width: 9vw;
     margin-top: -2vw;
@@ -10857,7 +10863,7 @@ table th {
     text-align: left;
     line-height: 5vw;
     font-size: 1.7vw;
-    width: 15%;
+    width: 24%;
 }
 tbody{
     text-align: center;
@@ -10878,7 +10884,6 @@ table th:after {
   
 table td {
     text-align: left;
-    width: 85%;
     font-size: 1.6vw;
     font-family: serif;
 }
