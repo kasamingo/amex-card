@@ -9,3 +9,4 @@ if (isModePC) {
 } else {
   document.writeln('<script type="text/javascript" src="/sp/shared/cmn_footer/html/footer_nav.js" charset="utf-8"></script>');
 }
+
