@@ -2935,12 +2935,12 @@ img[src$='.svg'] {
 }
 
 @media screen and (min-width:769px) {
-    .c-header_inner {
-        padding-left: 1.464vw;
-        padding-top: 2.464vw;
-        padding-right: 2.464vw;
-        padding-bottom: 2.464vw;
-    }   
+  .c-header_inner {
+    padding-left: 2.464vw;
+    padding-top: 1.4vw;
+    padding-right: 2.464vw;
+    padding-bottom: 1.4vw;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -2971,7 +2971,7 @@ img[src$='.svg'] {
 }
 
 .c-header-logo img {
-    width: 44%;
+  width: 30%;
 }
 .topText {
     color: silver;
