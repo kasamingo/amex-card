@@ -558,9 +558,8 @@ img[src$='.svg'] {
 
 .c-top_block__sec_ttl.is-show {
     opacity: 1;
-    margin-top: 2vw;
+    margin-top: 3vw;
 }
-
 @media screen and (min-width:769px) {
     .c-top_block__sec_ttl>span {
         font-size: .805vw
