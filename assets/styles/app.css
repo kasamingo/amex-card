@@ -2971,7 +2971,7 @@ img[src$='.svg'] {
 }
 
 .c-header-logo img {
-  width: 30%;
+    width: 33%;
 }
 .topText {
     color: silver;
@@ -5716,7 +5716,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_block__desc--lv1 {
-        margin-top: 1.44vw;
+        margin-top: 5.44vw;
     }
 }
 
@@ -5728,7 +5728,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_block__hdg--lv1 {
-        margin-top: 1vw
+        margin-top: 4vw;
     }
 }
 
