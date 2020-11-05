@@ -9157,8 +9157,8 @@ img[src$='.svg'] {
     height: 100%;
     -webkit-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    background-image: -webkit-gradient(linear, left top, right top, from(#221551), to(#422897));
-    background-image: linear-gradient(90deg, #221551, #422897);
+    background-image: -webkit-gradient(linear, left top, right top, from(#434244), to(#d5d5d5));
+    background-image: linear-gradient(90deg, #434244, #d5d5d5);
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
     overflow: hidden;
