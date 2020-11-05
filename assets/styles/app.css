@@ -1195,9 +1195,9 @@ img[src$='.svg'] {
     width: 121px;
     padding-top: 9px;
     padding-bottom: 9px;
-    padding-left: 12px;
+    padding-left: 7px;
     -webkit-box-shadow: 15vw 15vw 20px rgba(80, 61, 140, 0.35);
-    box-shadow: 15vw 15vw 20px rgba(80, 61, 140, 0.35)
+    box-shadow: 15vw 15vw 20px rgba(80, 61, 140, 0.35);
 }
 
 @media screen and (min-width:769px) {
