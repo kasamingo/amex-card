@@ -5729,7 +5729,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_block__hdg--lv1 {
-        margin-top: 4vw;
+        margin-top: 2vw;
     }
 }
 
