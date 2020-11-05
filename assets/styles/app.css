@@ -557,7 +557,8 @@ img[src$='.svg'] {
 }
 
 .c-top_block__sec_ttl.is-show {
-    opacity: 1
+    opacity: 1;
+    margin-top: 2vw;
 }
 
 @media screen and (min-width:769px) {
@@ -5701,7 +5702,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_inner .c-top_block__content {
-        margin-top: -2vw;
+        margin-top: -4vw;
         display: flex;
     }
 }
@@ -5716,7 +5717,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-mv_block__desc--lv1 {
-        margin-top: 5.44vw;
+        margin-top: 1.44vw;
     }
 }
 
