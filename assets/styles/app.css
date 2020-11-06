@@ -611,6 +611,9 @@ img[src$='.svg'] {
     .c-top_block__content {
         margin-top: 8vw
     }
+    .c-top_block__content2{
+        margin-top: 70vw;
+    }
 }
 
 .c-top_block__note {
