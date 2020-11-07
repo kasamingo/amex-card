@@ -600,10 +600,16 @@ img[src$='.svg'] {
 .c-top_block__content {
     position: relative;
 }
+.c-top_block__content2{
+    position: relative;
+}
 
 @media screen and (min-width:769px) {
     .c-top_block__content {
         margin-left: 9.3vw
+    }
+    .c-top_block__content2 {
+        margin-left: 6.3vw;
     }
 }
 
@@ -2974,7 +2980,7 @@ img[src$='.svg'] {
 }
 
 .c-header-logo img {
-    width: 33%;
+    width: 55%;
 }
 .topText {
     color: silver;
@@ -5323,7 +5329,7 @@ img[src$='.svg'] {
 
 .c-use__cont__list__item__inner .object {
     position: relative;
-    color: #807a7a;
+    color: #3d3d3d;
 }
 
 .c-use__cont__list__item__inner .object:before {
@@ -6109,6 +6115,9 @@ img[src$='.svg'] {
     .p-top-special_container .c-top_block__content {
         margin-top: -2vw
     }
+    .p-top-special_container .c-top_block__content2 {
+        margin-top: -2vw
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -6121,6 +6130,9 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-campaign_container .c-top_block__content {
+        margin-top: -2vw
+    }
+    .p-top-campaign_container .c-top_block__content2 {
         margin-top: -2vw
     }
 }
@@ -6181,6 +6193,9 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-top-try_container .c-top_block__content {
+        margin-top: -2vw
+    }
+    .p-top-try_container .c-top_block__content2 {
         margin-top: -2vw
     }
 }
@@ -8961,9 +8976,9 @@ img[src$='.svg'] {
         width: 14.494875549048317vw;
         font-size: 1.171303074670571vw;
         margin-top: 2.928257686676428vw;
-        padding: 1.09809663250366vw 0 1.09809663250366vw 1.830161054172767vw;
+        padding: 1.09809663250366vw 0 1.09809663250366vw 0.8vw;
         -webkit-box-sizing: border-box;
-        box-sizing: border-box
+        box-sizing: border-box;
     }
 }
 
@@ -11169,6 +11184,12 @@ table td {
 @media screen and (max-width:480px){
     .an {
         font-size: 36px;
+    }
+    .c-header_inner {
+        padding-left: 3vw;
+        padding-top: 3.7vw;
+        padding-right: 8vw;
+        padding-bottom: 3.7vw;
     }
     .c-top_block__copy {
         font-size: 13px;
