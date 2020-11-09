@@ -6180,7 +6180,7 @@ img[src$='.svg'] {
 @media screen and (max-width:768px) {
     .p-top-try_container {
         margin-left: 8vw;
-        padding-top: 80vw;
+        padding-top: 24vw;
         padding-bottom: 18vw;
     }
 }
